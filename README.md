@@ -1,13 +1,13 @@
-#Functions Module
+# Box-sizing Module
 
-The `box-sizing` module causes all elements to use border-box.
+The `box-sizing` sets the global box-sizing to border-box.
 
 ## Installation
 
 Install using Bower:
 
-	$ bower --save bare-box-sizing
+    $bower install --save bare-box-sizing
 
 Import into project:
 
-	@import "bower_components/bare-box-sizing/core.box-sizing";
+    @import "bower_components/bare-box-sizing/core.box-sizing";
