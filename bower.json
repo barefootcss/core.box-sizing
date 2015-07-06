@@ -1,10 +1,10 @@
 {
-  "name": "bare-box-sizing",
-  "version": "0.1.0",
+  "name": "box-sizing",
+  "version": "1.0.0",
   "authors": [
     "Eric Harms <barefoot.css@gmail.com>"
   ],
-  "description": "The box-sizing module causes all elements to use border-box.",
+  "description": "The box-sizing sets the global box-sizing to border-box.",
   "main": "_core.box-sizing.scss",
   "keywords": [
     "barefoot",
@@ -13,6 +13,12 @@
     "framework"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/barefootcss/core.box-sizing"
+  "homepage": "https://github.com/barefootcss/core.box-sizing",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
-  
